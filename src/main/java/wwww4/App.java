@@ -22,6 +22,11 @@ public class App
         h3.setName("김종원");
         h3.setAge(24);
         h3.setNumber(201413286);
+      
+        User h4 = new User();
+        h4.setName("조성준");
+        h4.setAge(24);
+        h4.setNumber(201413358);
 
         System.out.println("-----사용자-----");
         System.out.println("이름 : " + h1.getName());
@@ -33,9 +38,15 @@ public class App
         System.out.println("나이 : " + h2.getAge());
         System.out.println("학번 : " + h2.getNumber());
 
+
         System.out.println("\n-----사용자-----");
         System.out.println("이름 : " + h3.getName());
         System.out.println("나이 : " + h3.getAge());
         System.out.println("학번 : " + h3.getNumber());
+
+        System.out.println( "\n-----사용자-----" );
+        System.out.println( "이름 : " + h4.getName() );
+        System.out.println( "나이 : " + h4.getAge() );
+        System.out.println( "학번 : " + h4.getNumber() );
     }
 }
